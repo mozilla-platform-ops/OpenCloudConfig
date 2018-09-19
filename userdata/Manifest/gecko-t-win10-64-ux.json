@@ -50,8 +50,8 @@
       "State": "Running",
       "DependsOn": [
         {
-          "ComponentType": "ReplaceInFile",
-          "ComponentName": "SetLogAggregator"
+          "ComponentType": "ChecksumFileDownload",
+          "ComponentName": "NxLogPaperTrailConfiguration"
         }
       ]
     },
